@@ -31,12 +31,12 @@ public class MoveResult {
         return new MoveResult(Status.SUCCESS, endRow, endCol, moveCost, nextCheckPoint, listVisited);
     }
 
-    public static MoveResult gameOver(int endRow, int endCol, int moveCost, int nextCheckPoint, List<int[]> listVisited){
-        return new MoveResult(Status.GAME_OVER, endRow, endCol, moveCost, nextCheckPoint, listVisited);
+    public static MoveResult gameOver(){
+        return new MoveResult(Status.GAME_OVER, -1, -1, 0, 01, List.of());
     }
 
-    public static MoveResult noMove(int endRow, int endCol, int moveCost, int nextCheckPoint, List<int[]> listVisited){
-        return new MoveResult(Status.NO_MOVE, endRow, endCol, moveCost, nextCheckPoint, listVisited);
+    public static MoveResult noMove(){
+        return new MoveResult(Status.NO_MOVE, -1, -1, 0, -1, List.of());
     }
 
     public Status getStatus(){

@@ -2,7 +2,7 @@ package esngalir.model;
 
 import java.util.Objects;
 
-public class State {
+public class State { //kondisi "pion"
     private final int row;
     private final int col;
     private final int nextCheckPoint;

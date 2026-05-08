@@ -2,7 +2,7 @@ package esngalir.ui;
 
 import esngalir.model.Board;
 import esngalir.model.Tile;
-import model.util.InputValidator;
+import esngalir.utils.InputValidator;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

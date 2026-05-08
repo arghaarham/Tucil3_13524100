@@ -81,7 +81,10 @@ public class Board {
             int tempRow = row + dRow;
             int tempCol = col + dCol;
 
-            if (!inGrid(tempRow, tempCol) || grid[tempRow][tempCol] == Tile.WALL) {
+            if (!inGrid(tempRow, tempCol)) {
+                return MoveResult.gameOver();
+            }
+            if (grid[tempRow][tempCol] == Tile.WALL) {
                 break;
             }
             row = tempRow;

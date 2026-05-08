@@ -21,7 +21,7 @@ public class Timer {
         running = false;
     }
 
-    public long getElapsedMs(){
+    public long getTime(){
         if (running) {
             throw new IllegalStateException("Timer masih berjalan (call stop() dulu)");
         }

@@ -1,4 +1,4 @@
-package esngalir.ui;
+package esngalir.io;
 
 import esngalir.model.Board;
 import esngalir.model.Tile;

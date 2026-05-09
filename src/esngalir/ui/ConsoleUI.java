@@ -43,7 +43,7 @@ public class ConsoleUI {
         }
 
         //algoritma
-        System.out.print("Algoritma apa yang anda pilih? (UCS/GBFS/A*/BFS/DFS/IDA*): ");
+        System.out.print("Algoritma apa yang anda pilih? (UCS/GBFS/A*/BFS/DFS): ");
         String algo = scanner.nextLine().trim().toUpperCase();
 
         //heuristik (cuma buat GBFS, A*, IDA*)

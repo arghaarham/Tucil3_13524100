@@ -21,12 +21,11 @@ sambil melewati semua checkpoint secara berurutan.
 
 ### Requirement
 - Java 17+
-- JavaFX 17+ (untuk GUI)
-  - Download: https://gluonhq.com/products/javafx/
+- Maven 3.6+ (JavaFX diunduh otomatis oleh Maven)
 
 ### Struktur Repository
 ```
-Tucil3_NIM1_NIM2/
+Tucil3_13524100/
 ├── src/          -> source code Java
 ├── bin/          -> hasil kompilasi (.class)
 ├── test/         -> test case input (.txt)
@@ -35,55 +34,17 @@ Tucil3_NIM1_NIM2/
 ```
 
 ### Cara Kompilasi
-
-**Linux / Mac:**
 ```bash
-# Tanpa JavaFX (CLI only)
-find src -name "*.java" > sources.txt
-javac -d bin @sources.txt
-
-# Dengan JavaFX (CLI + GUI)
-find src -name "*.java" > sources.txt
-javac --module-path /path/to/javafx-sdk/lib \
-      --add-modules javafx.controls,javafx.fxml \
-      -d bin @sources.txt
-```
-
-**Windows:**
-```bat
-# Tanpa JavaFX (CLI only)
-dir /s /b src\*.java > sources.txt
-javac -d bin @sources.txt
-
-# Dengan JavaFX (CLI + GUI)
-dir /s /b src\*.java > sources.txt
-javac --module-path C:\path\to\javafx-sdk\lib ^
-      --add-modules javafx.controls,javafx.fxml ^
-      -d bin @sources.txt
+mvn compile
 ```
 
 ### Cara Menjalankan
-
-**Linux / Mac:**
 ```bash
 # Mode CLI
-java -cp bin esngalir.Main
+mvn exec:java
 
 # Mode GUI
-java --module-path /path/to/javafx-sdk/lib \
-     --add-modules javafx.controls,javafx.fxml \
-     -cp bin esngalir.Main --gui
-```
-
-**Windows:**
-```bat
-# Mode CLI
-java -cp bin esngalir.Main
-
-# Mode GUI
-java --module-path C:\path\to\javafx-sdk\lib ^
-     --add-modules javafx.controls,javafx.fxml ^
-     -cp bin esngalir.Main --gui
+mvn javafx:run
 ```
 
 ### Format File Input

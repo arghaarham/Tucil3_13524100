@@ -1,0 +1,28 @@
+Move: RD
+Total Cost: 13
+Total Iterasi: 3
+Time: 0
+
+-----Langkah Solusi-----
+
+Step awal: 
+XXXXX
+X@**X
+X***X
+X**OX
+XXXXX
+
+Step ke-1 (RIGHT): 
+XXXXX
+XZ*@X
+X***X
+X**OX
+XXXXX
+
+Step ke-2 (DOWN): 
+XXXXX
+XZ**X
+X***X
+X**@X
+XXXXX
+

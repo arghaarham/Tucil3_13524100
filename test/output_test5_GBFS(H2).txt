@@ -1,0 +1,43 @@
+Move: URD
+Total Cost: 70
+Total Iterasi: 4
+Time: 0
+
+-----Langkah Solusi-----
+
+Step awal: 
+XXXXXXX
+X0***1X
+X*XXX*X
+X*X*X*X
+X*XXX*X
+X@***OX
+XXXXXXX
+
+Step ke-1 (UP): 
+XXXXXXX
+X@***1X
+X*XXX*X
+X*X*X*X
+X*XXX*X
+XZ***OX
+XXXXXXX
+
+Step ke-2 (RIGHT): 
+XXXXXXX
+X0***@X
+X*XXX*X
+X*X*X*X
+X*XXX*X
+XZ***OX
+XXXXXXX
+
+Step ke-3 (DOWN): 
+XXXXXXX
+X0***1X
+X*XXX*X
+X*X*X*X
+X*XXX*X
+XZ***@X
+XXXXXXX
+

@@ -1,0 +1,88 @@
+Move: RULUDRUR
+Total Cost: 87
+Total Iterasi: 14
+Time: 0
+
+-----Langkah Solusi-----
+
+Step awal: 
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X@**X*X
+XXXXXXX
+
+Step ke-1 (RIGHT): 
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ*@X*X
+XXXXXXX
+
+Step ke-2 (UP): 
+XXXXXXX
+X0****X
+X**X**X
+X**@*OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Step ke-3 (LEFT): 
+XXXXXXX
+X0****X
+X**X**X
+X@***OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Step ke-4 (UP): 
+XXXXXXX
+X@****X
+X**X**X
+X****OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Step ke-5 (DOWN): 
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+X@**X*X
+XXXXXXX
+
+Step ke-6 (RIGHT): 
+XXXXXXX
+X0****X
+X**X**X
+X****OX
+X1***LX
+XZ*@X*X
+XXXXXXX
+
+Step ke-7 (UP): 
+XXXXXXX
+X0****X
+X**X**X
+X**@*OX
+X1***LX
+XZ**X*X
+XXXXXXX
+
+Step ke-8 (RIGHT): 
+XXXXXXX
+X0****X
+X**X**X
+X****@X
+X1***LX
+XZ**X*X
+XXXXXXX
+

@@ -27,7 +27,7 @@ sambil melewati semua checkpoint secara berurutan.
 ```
 Tucil3_13524100/
 ├── src/          -> source code Java
-├── bin/          -> hasil kompilasi (.class)
+├── bin/          -> hasil kompilasi (.class) kalau manual. kalau dengan maven akan tersimpan di target/
 ├── test/         -> test case input (.txt)
 ├── doc/          -> laporan PDF
 └── README.md
